@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Repository for Advent of Code solutions and utilities.",
+  "main": "index.js",
+  "scripts": {
+    "gen:year": "npx tsx ./src/scripts/generateYear.ts",
+    "start": "npx tsx ./src/scripts/run.ts",
+    "start:real": "npm start -- --inputType=real"
+  },
+  "author": "Chad Lewis",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
